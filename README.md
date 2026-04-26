@@ -14,12 +14,19 @@ SignalCircle is bigger than one dashboard. The long-term vision is a trusted inv
 - AI daily digest of what the circle is watching
 - Alerts for friend signals, price levels, 50D crosses, and target hits
 - Profiles with investing style and track record
+- Private portfolio journal for owned positions and exit plans
 
 ## Prototype Pages
 
 - `index.html` - SignalCircle landing page
 - `login.html` - prototype login/onboarding page
 - `social-dashboard.html` - working watchlist and signal feed prototype
+- `circles.html` - private group/circle management
+- `ticker.html` - ticker discussion room and thesis view
+- `digest.html` - AI daily summary concept
+- `alerts.html` - smart alert center
+- `profile.html` - investor profile and future track record
+- `portfolio.html` - private portfolio journal concept
 
 ## Live Page
 
@@ -36,6 +43,7 @@ After GitHub Pages is enabled, the app is available at:
 - Post-a-signal form with entry, target, and reason
 - Group pulse summary
 - Local browser saving for watchlist and posts
+- Static product pages for circles, ticker rooms, digest, alerts, profiles, and portfolio journal
 
 ## Notes
 
