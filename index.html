@@ -9,7 +9,7 @@
     tailwind.config={theme:{extend:{colors:{ink:'#08111f',muted:'#94a3b8',bull:'#22c55e',bear:'#ef4444',caution:'#f59e0b',blue:'#38bdf8'}}}}
   </script>
   <style>
-    body{background:#08111f}.hero{background:linear-gradient(rgba(8,17,31,.18),rgba(8,17,31,.9)),url('https://images.unsplash.com/photo-1642790106117-e829e14a795f?auto=format&fit=crop&w=2400&q=80') center/cover}.card{background:rgba(15,23,42,.82);border:1px solid rgba(148,163,184,.16);box-shadow:0 24px 70px rgba(0,0,0,.24);backdrop-filter:blur(18px)}.soft{background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.08)}.chip{border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06)}
+    body{background:#08111f}.hero{background:linear-gradient(rgba(8,17,31,.2),rgba(8,17,31,.92)),url('https://images.unsplash.com/photo-1642790106117-e829e14a795f?auto=format&fit=crop&w=2400&q=80') center/cover}.card{background:rgba(15,23,42,.82);border:1px solid rgba(148,163,184,.16);box-shadow:0 24px 70px rgba(0,0,0,.24);backdrop-filter:blur(18px)}.soft{background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.08)}.chip{border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06)}
   </style>
 </head>
 <body class="text-slate-200">
@@ -18,7 +18,7 @@
       <a class="text-white font-extrabold text-xl tracking-tight" href="./index.html">SignalCircle</a>
       <div class="flex items-center gap-2">
         <a href="./social-dashboard.html" class="hidden sm:inline-flex rounded-xl px-4 py-2 text-sm font-bold chip text-slate-100 hover:text-white">Demo</a>
-        <a href="./login.html" class="rounded-xl px-4 py-2 text-sm font-extrabold bg-blue/20 border border-blue/40 text-white hover:bg-blue/30">Sign in</a>
+        <a href="./login.html" class="rounded-xl px-4 py-2 text-sm font-extrabold bg-blue/20 border border-blue/40 text-white hover:bg-blue/30">Sign up</a>
       </div>
     </nav>
   </header>
@@ -26,12 +26,12 @@
   <section class="hero min-h-[92vh] flex items-end">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 pt-28 w-full">
       <div class="max-w-4xl">
-        <div class="inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-bold tracking-wide text-blue bg-blue/10 border border-blue/25 mb-5"><span class="h-2 w-2 rounded-full bg-blue animate-pulse"></span>PRIVATE INVESTING CIRCLES</div>
-        <h1 class="text-5xl sm:text-7xl font-extrabold tracking-tight text-white">Share the why behind every stock idea.</h1>
-        <p class="text-lg sm:text-xl text-slate-300 mt-5 max-w-3xl">SignalCircle gives families and trusted friends a private place to build watchlists, post buy or sell signals, explain their thinking, and learn from each other.</p>
+        <div class="inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-bold tracking-wide text-blue bg-blue/10 border border-blue/25 mb-5"><span class="h-2 w-2 rounded-full bg-blue animate-pulse"></span>TRUSTED INVESTING NETWORK</div>
+        <h1 class="text-5xl sm:text-7xl font-extrabold tracking-tight text-white">Trusted investing network for families and friends.</h1>
+        <p class="text-lg sm:text-xl text-slate-300 mt-5 max-w-3xl">SignalCircle gives trusted circles a private home for watchlists, buy/sell/hold ideas, and clear reasoning. Learn together without public-market noise.</p>
         <div class="mt-8 flex flex-col sm:flex-row gap-3">
-          <a href="./login.html" class="rounded-xl px-6 py-4 text-center font-extrabold bg-bull/20 border border-bull/40 text-white hover:bg-bull/30">Start A Circle</a>
-          <a href="./social-dashboard.html" class="rounded-xl px-6 py-4 text-center font-extrabold chip text-white hover:bg-white/10">Open Prototype</a>
+          <a href="./login.html" class="rounded-xl px-6 py-4 text-center font-extrabold bg-bull/20 border border-bull/40 text-white hover:bg-bull/30">Create your circle</a>
+          <a href="./social-dashboard.html" class="rounded-xl px-6 py-4 text-center font-extrabold chip text-white hover:bg-white/10">View MVP demo</a>
         </div>
       </div>
     </div>
@@ -39,24 +39,35 @@
 
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
     <section class="grid grid-cols-1 md:grid-cols-3 gap-4 -mt-20 relative z-10">
-      <div class="card rounded-3xl p-6"><p class="text-xs text-muted uppercase tracking-widest font-bold">Product 01</p><h2 class="text-2xl font-extrabold text-white mt-3">Stock Circle</h2><p class="text-muted mt-2">Top 50 watchlists, live prices, signals, and family/friend discussion.</p></div>
-      <div class="card rounded-3xl p-6"><p class="text-xs text-muted uppercase tracking-widest font-bold">Product 02</p><h2 class="text-2xl font-extrabold text-white mt-3">Signal Feed</h2><p class="text-muted mt-2">A social feed for buy ideas, avoid calls, thesis updates, and comments.</p></div>
-      <div class="card rounded-3xl p-6"><p class="text-xs text-muted uppercase tracking-widest font-bold">Product 03</p><h2 class="text-2xl font-extrabold text-white mt-3">AI Digest</h2><p class="text-muted mt-2">Daily summaries showing what your circle is bullish on, worried about, and watching next.</p></div>
+      <div class="card rounded-3xl p-6"><p class="text-xs text-muted uppercase tracking-widest font-bold">Product 01</p><h2 class="text-2xl font-extrabold text-white mt-3">Stock Circle</h2><p class="text-muted mt-2">Private watchlists for each member and your shared group convictions.</p></div>
+      <div class="card rounded-3xl p-6"><p class="text-xs text-muted uppercase tracking-widest font-bold">Product 02</p><h2 class="text-2xl font-extrabold text-white mt-3">Signal Feed</h2><p class="text-muted mt-2">Post buy/hold/sell ideas with thesis, targets, and comments from the circle.</p></div>
+      <div class="card rounded-3xl p-6"><p class="text-xs text-muted uppercase tracking-widest font-bold">Product 03</p><h2 class="text-2xl font-extrabold text-white mt-3">AI Digest</h2><p class="text-muted mt-2">Daily circle summary of bullish ideas, risk flags, and what changed.</p></div>
     </section>
 
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 py-16 items-start">
       <div>
-        <p class="text-blue text-xs font-extrabold uppercase tracking-widest">The Vision</p>
-        <h2 class="text-4xl font-extrabold text-white mt-3">A trusted network for everyday investors.</h2>
-        <p class="text-muted mt-4 text-lg">Public investing social apps are noisy. SignalCircle starts with trust: family, friends, small groups, and clear reasoning. Every signal should answer why, entry, target, risk, and time horizon.</p>
+        <p class="text-blue text-xs font-extrabold uppercase tracking-widest">Vision</p>
+        <h2 class="text-4xl font-extrabold text-white mt-3">A calmer social layer for investing decisions.</h2>
+        <p class="text-muted mt-4 text-lg">SignalCircle is designed to feel trustworthy: clear language, focused product modules, and private-by-default circles where every signal explains why.</p>
       </div>
       <div class="card rounded-3xl p-6 space-y-3">
-        <div class="soft rounded-2xl p-4"><b class="text-white">Profiles:</b> each user has a watchlist, track record, and investing style.</div>
-        <div class="soft rounded-2xl p-4"><b class="text-white">Private groups:</b> family circle, options circle, long-term circle, AI stocks circle.</div>
-        <div class="soft rounded-2xl p-4"><b class="text-white">Ticker rooms:</b> every stock has a shared discussion page and circle sentiment.</div>
-        <div class="soft rounded-2xl p-4"><b class="text-white">Alerts:</b> notify the circle when a friend posts, price crosses 50D, or a target hits.</div>
+        <div class="soft rounded-2xl p-4"><b class="text-white">Why private circles?</b> Better context and less hype than public feeds.</div>
+        <div class="soft rounded-2xl p-4"><b class="text-white">Explainable signals:</b> entry, target, stop, confidence, and horizon.</div>
+        <div class="soft rounded-2xl p-4"><b class="text-white">Shared accountability:</b> comments and likes make thinking visible.</div>
+        <div class="soft rounded-2xl p-4"><b class="text-white">Realtime updates:</b> new posts and comments sync immediately.</div>
       </div>
     </section>
   </main>
+
+  <footer class="border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-sm text-muted flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between">
+      <p>© SignalCircle MVP</p>
+      <div class="flex gap-4">
+        <a class="hover:text-white" href="./docs/SUPABASE_SETUP.md">Docs</a>
+        <a class="hover:text-white" href="#">Privacy policy</a>
+        <a class="hover:text-white" href="https://github.com/">Social</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

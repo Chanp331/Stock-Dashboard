@@ -16,6 +16,13 @@ SignalCircle is bigger than one dashboard. The long-term vision is a trusted inv
 - Profiles with investing style and track record
 - Private portfolio journal for owned positions and exit plans
 
+
+## MVP Build Assets Added
+
+- `mvp-roadmap.md` - concrete prompt/task roadmap for building a scalable MVP
+- `supabase/schema.sql` - Supabase PostgreSQL schema + RLS policies
+- `docs/SUPABASE_SETUP.md` - implementation checklist for Supabase setup and env contract
+
 ## Prototype Pages
 
 - `index.html` - SignalCircle landing page
